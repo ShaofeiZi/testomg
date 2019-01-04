@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var Omega = { // 对Omega进行配置。
+        appKey: 'XXXXX',
+        attrs:{
+            label:'预设'
+        }
+        // uploadHost: '10.96.78.138'
+    }
+</script>
+<!--<script src="index.browser.dev.js"></script>-->
+<script src="https://tracker.didistatic.com/static/tracker/dev/omega.min.js"></script>
+<!--<script src="//tracker.didiglobal.com/static/tracker_global/2.0.5/omega.min.js"></script>-->
+<!--<script src="https://tracker.didistatic.com/static/tracker/2.1.3/omega.min.js"></script>-->
+<script>
+    // function sendError() {
+    //     setTimeout(()=>{
+    //         sendError()
+    //     },10)
+    //     throw new TypeError('a')
+    // }
+    // sendError();
+</script>
+<!--<script src="index.browser.local.min.js"></script>-->
+<!--<script src="https://tracker.didistatic.com/static/tracker/latest/omega.activity.min.js"></script>-->
+<!--<script src="https://tracker.didistatic.com/static/tracker/2.1.1/omega.min.js"></script>-->
+<script>
+    Omega.enableClickAutoTracker({attr:'auto-track-click'})
+
+</script>
+<script>
+    // setTimeout(()=>{
+    //     throw new TypeError('a')
+    // },1000)
+    // setTimeout(()=>{
+    //     throw new TypeError('a')
+    // },2000)
+    // setTimeout(()=>{
+    //     throw new TypeError('a')
+    // },3000)
+    // setTimeout(()=>{
+    //     throw new TypeError('a')
+    // },4000)
+</script>
+<script>
+    // setTimeout(()=>{
+    //     Omega.setConfig({
+    //         appKey:''
+    //     })
+    // },0)
+
+</script>
+<!--<script>-->
+    <!--window.D = window.D || {};-->
+    <!--D.Map = D.Map || {};-->
+    <!--(function() {-->
+        <!--function getScript(src) {-->
+            <!--var protocol = (window.location.protocol == "https:") ? "https://" : "http://";-->
+            <!--src = src && (src.indexOf("http://") === 0 || src.indexOf("https://") === 0) ? src : protocol + src;-->
+            <!--document.write('<' + 'script src="' + src + '"' + ' type="text/javascript"><' + '/script>');-->
+        <!--}-->
+        <!--D.__load = function (apiLoad) {-->
+            <!--delete D.__load;-->
+            <!--apiLoad([["1.2.14"],["","","",0,"","http://img-hxy021.didistatic.com/static/mapjsapi/static/images/"],[1,2,2,2],["",1],["","","","",""],[""],["","",""]],2);-->
+        <!--};-->
+        <!--var loadScriptTime = (new Date).getTime();-->
+        <!--// getScript('img-hxy021.didistatic.com/static/mapjsapi/static/1.2.14/api.js');-->
+    <!--})();-->
+<!--</script>-->
+<!--<script src="d.js"></script>-->
+<div id="allmap"></div>
+<button type="button" auto-track-click='{"e":"采集设","attrs":{"label":"后设"}}' onclick="Omega.trackEvent('event','trackEvent设')">
+
+    <a href="#" auto-track-click='{"attrs":{"label":"后设","bool":true,"fl":false}}'>disjfidsjfjdisj</a>
+    <a href="#" auto-track-click='{"attrs":{"label":"后设","bool":true,"fl":false}}'>disjfidsjfjdisj</a>
+
+</button>
+<a href="#" auto-track-click='{"attrs":{"label":"后设","bool":true,"fl":false}}'>disjfidsjfjdisj</a>
+<div auto-track-click='{"e":"采集设","attrs":{"label":"w1"}}'>
+    adushaiuhdahsiudh
+    <button type="button" auto-track-click='{"e":"采集设","attrs":{"label":"w2"}}' onclick="Omega.trackEvent('event','trackEvent设')">
+
+        <a href="#" auto-track-click='{"attrs":{"label":"w3","bool":true,"fl":false}}'>disjfidsjfjdisj</a>
+        <a href="#" auto-track-click='{"attrs":{"label":"w4","bool":true,"fl":false}}'>disjfidsjfjdisj</a>
+
+    </button>
+</div>
+
+<!--<script type="text/javascript">-->
+    <!--var mapNode = document.getElementById('allmap');-->
+    <!--let center = new D.LatLng(39.916527, 116.397128);-->
+
+    <!--var map = new D.Map(mapNode, {-->
+        <!--center: new D.LatLng(39.916527, 116.397128),-->
+        <!--zoom: 16-->
+    <!--});-->
+    <!--var marker = new D.Marker({-->
+        <!--map: map,-->
+        <!--position: new D.LatLng(39.916527, 116.397128),-->
+        <!--draggable: true,-->
+    <!--});-->
+    <!--D.event.addListener(marker, 'click', function () {-->
+        <!--console.log(arguments)-->
+    <!--})-->
+<!--</script>-->
+</body>
+</html>
